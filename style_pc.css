@@ -1,0 +1,87 @@
+@media all and (min-width: 900px)
+{   
+    footer {position: absolute; bottom: 0px;}
+    #img_mobile{display: none;}   
+
+    *{
+        margin:0; 
+        padding:0;
+    }
+    body
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100vh;
+        overflow: hidden;
+    }
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        width: auto;
+        height: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+
+        text-align: left;
+        overflow: hidden;
+
+        background-image: url("images/bg-pattern-desktop.svg");
+    }
+    main *
+    {
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    #logo
+    {
+        padding-top: 3em;
+        padding-bottom: 4em;
+    }
+
+    h1
+    {
+        width: 40%;
+        align-self: flex-start;
+        line-height: 1.2em;
+    }
+    p
+    {
+        width: 80%;
+        align-self: flex-start;
+        line-height: 1.5em;
+    }
+    .mail_pannel
+    {
+        align-self: flex-start;
+        width: 75%;
+
+    }
+    #arrow_button
+    {
+        position: relative;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    #error-message
+    {
+        padding-left: 1.5em;
+        padding-top: 2em;
+    }
+
+    #img_pc
+    {
+        display: inline;
+        align-self: flex-end;
+        height: 100%;
+        width: 50%;
+        object-fit: cover;
+
+        background-color: blue;
+    }
+}
