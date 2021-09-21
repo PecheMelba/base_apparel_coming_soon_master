@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://pechemelba.github.io/Social-Proof-section-master/](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-comming-soon-master-flex-box-and-java-script-nSI93CEhh](https://your-solution-url.com)
+- Live Site URL: [https://pechemelba.github.io/base_apparel_coming_soon_master/](https://your-live-site-url.com)
 
 ## My process
 
